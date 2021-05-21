@@ -45,7 +45,7 @@ void Question(string question, string trueanswer, string falseanswer)
     }
 }
 
-void MooseSays(string messagage)
+void MooseSays(string message)
 {
     Console.WriteLine($@"
                                        _.--^^^--,
@@ -64,7 +64,7 @@ void MooseSays(string messagage)
                '-'    | /       \ |
                       |  .-. .-.  |
                       \ / o| |o \ /
-                       |   / \   |    {messagage}
+                       |   / \   |    {message}
                       / `^`   `^` \
                      /             \
                     | '._.'         \
